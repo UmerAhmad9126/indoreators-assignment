@@ -22,7 +22,10 @@ Where user can Reate Notes And Delete Notes.
 
 # Deployed Link :- https://post-api-neon.vercel.app/
 
-#Tech Stack Used :- 
+# Tech Stack Used :- 
 <ul>
   <li>React</li>
 </ul>
+
+![Screenshot (310)](https://github.com/UmerAhmad9126/indoreators-assignment/assets/107202480/9d78c843-9d73-479f-a2c7-67ae27c79c97)
+
