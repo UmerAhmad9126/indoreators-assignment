@@ -19,7 +19,7 @@ const NotesContainer = () => {
         setBody("");
         setTitle("");
 
-        fetch("http://localhost:8080/notes/add", {
+        fetch("https://indoreators-backend.onrender.com/notes/add", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -40,16 +40,16 @@ const NotesContainer = () => {
 
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:8080/notes/delete/${id}`, {
+        fetch(`https://indoreators-backend.onrender.com/notes/delete/${id}`, {
             method: 'DELETE',
         })
             .then((res) => res.json())
             .then((res) => console.log('res:', res))
             .catch((err) => console.log(err))
     }
-
+    
     useEffect(() => {
-        fetch("http://localhost:8080/notes")
+        fetch("https://indoreators-backend.onrender.com/notes")
             .then((res) => {
                 return res.json();
             })
